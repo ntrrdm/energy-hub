@@ -1,0 +1,30 @@
+{
+  "name": "energyhub-transparency",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "data": "node scripts/build-case6-data.js",
+    "test": "node --experimental-strip-types --test tests/domain.test.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
+    "@xyflow/react": "^12.9.0",
+    "class-variance-authority": "^0.7.1",
+    "echarts": "^6.0.0",
+    "lucide-react": "^0.468.0",
+    "maplibre-gl": "^5.10.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  }
+}

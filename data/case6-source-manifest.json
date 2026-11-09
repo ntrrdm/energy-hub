@@ -1,0 +1,10 @@
+{
+  "archive": "case6.zip",
+  "files": 6,
+  "delimiter": ";",
+  "timezone": "Europe/Volgograd",
+  "interval": "15 min",
+  "fields": ["timestamp", "node_name", "asset_name", "Demand", "Grid", "PV"],
+  "quality_rule": "empty Demand/PV/Grid values are missing measurements, not zero",
+  "generator": "work/build-case6-data.js"
+}
